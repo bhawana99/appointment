@@ -1,0 +1,186 @@
+<html>
+<title>Online Appointent Portal</title>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script type="text/javascript" src="home.js" ></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+	  <style>
+	  @media only screen and (max-width: 600px){
+		  
+		  #tag{
+           	width:100%;
+            padding-left:0px;
+            text-align:center;
+            font-size:27px;	
+            font-weight:bold;
+		  }
+		  #menu {
+			width:350px;
+			margin-left:10px;
+			height:400px;
+			background-color:rgba(255,255,255,0.0);
+			text-align:center;
+		  }
+		  
+		  #appointment{
+		    width:350px;
+			margin-left:10px;
+		  }
+		  
+		  #reports{
+		    width:350px;
+			margin-left:10px;
+		  
+		  }
+		  
+		  #bottom{
+			margin-left:7%;
+		    
+		  }
+		  #emergency,#contact,#hours{
+		    width:350px;
+			text-align:center;
+			font-size:18px;
+		  }
+		  .sticky{
+             position: absolute;
+          }
+		  
+		}
+		
+	  </style>
+</head>
+<body>
+  <div class="container-fluid">
+  
+   <div class="row" id="header" style="background-color:white;">
+      <div class="col-sm-4"><img src="logo2.png"></div>
+	  <div class="col-sm-8" id="tag">A PASSION FOR HEALING:)</div>
+   </div>
+   <div class="row" id="top">
+	  <div class="col-sm-2"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style="background-color: #77b5f9;border:none;">
+	  <i class="fas fa-home" style="font-size:28px"></i>
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu" style="background-color:#77b5f9;">
+        <li class="home-content" ><a id="a" href="#">Home</a></li>
+	  </ul>
+     </div>
+	  <div class="col-sm-2"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style="background-color: #77b5f9;border:none;width:120px;">
+	  <strong style="font-size:20px">Vision</strong>
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu" style="background-color:#77b5f9;">
+        <li class="vision-content">Reading Hospital will be an innovative, leading 
+		regional health system dedicated to advancing the health and 
+		transforming the lives of the people we serve through excellent
+		clinical quality; accessible, patient-centered, caring service; and 
+		unmatched physician and employee commitment.</li>
+	  </ul>
+	  </div>
+	 <div class="col-sm-3"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style="background-color: #77b5f9;border:none;">
+	  <strong style="font-size:20px">Mission</strong>
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu" style="background-color:#77b5f9;">
+        <li class="mission-content">The Mission of Sanjeevan Hospital 
+		is to provide compassionate, accessible, high quality,
+		cost effective healthcare to the community; to promote health;
+		to educate healthcare professionals; 
+		and to participate in appropriate clinical research.</li>
+	  </ul>
+	 </div>
+	 <div class="col-sm-3"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style="background-color: #77b5f9;border:none;">
+	  <strong style="font-size:20px">Feedback</strong>
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu" style="background-color:#77b5f9;">
+        <li class="feedback-content">write your feedback here:
+		<a id="a" href="#" style="font-size:15px">navjeevan.hospital@gmail.com</a>
+		<hr>
+		<a id="a" href="#" style="font-size:15px">Learn More >></a></li>
+		</ul>
+	 </div>
+	 <div class="col-sm-2"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style="background-color: #77b5f9;border:none;">
+	  <strong style="font-size:20px">Login</strong> 
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu" style="background-color:#77b5f9;">
+        <li class="login-content" ><i class="fa fa-user-md" style="font-size:24px"></i><a id="a" href="#">Doctor</a></li>
+		<li class="login-content"><i class="fa fa-book" style="font-size:24px"></i><a id="a"  href="#">Administration</a></li>
+	  </ul>
+	 </div>
+	 
+   </div>
+   
+   
+   
+	<div class="main">
+	   <div class="row" id="menu" >
+	      <div class="col-sm-6" id="appointment"><i class="fas fa-calendar" style="font-size:54px"></i>
+		  <a href="#" ><b>Appointments</b></a>
+		  </div>
+		  <div class="col-sm-6" id="reports"><i class="fas fa-file-alt" style="font-size:54px"></i>
+		  <a href="#"><b>Test Reports</b></a>
+		  </div>
+		  <div class="col-sm-12" id="about">
+		  <b style="font-size:25px;font-family:Times New Roman;text-decoration:underline;color:blue;">YOUR HEALTH IS OUR PRIME DUTY.</b>
+		  <p style="font-size:20px;padding-top:5px;font-family:Times New Roman;">We didacate our days to turning on serious, interrupting illnesses
+		     pushing boundaries.</p>
+		  </div>
+		</div>
+    </div>
+	
+	
+	
+	
+	<div class="row" >
+        <div class="row" id="bottom">
+		   <div class="col-md-4" id="emergency" style="background-color:#66a3ff;">
+		    <ul>
+		    <li><strong style="font-size:24px">Emergency-Case</strong></li>
+			<li><strong>0110-757693<i class="fa fa-phone" style="font-size:12px:padding-left:15px;"></i></li></strong></li>
+		    <li>If you need a doctor urgently outside of Navjeevan opening hours,
+			call emergency appointment number for emergency service.</li>
+			</ul>
+			<hr>
+		   </div>
+		   <div class="col-md-4" id="contact" style="background-color:#4d94ff;">
+		    <ul>
+			<li><strong style="font-size:24px">Contact Us</strong></li>
+			<li><address>Sanjeevan Hospital,<br>Opposite Mandi Gate<br>G.E. Road<br>
+			  Raipur Chhattisgarg<br>077140 43106<i class="fa fa-phone" style="font-size:12px:padding-left:15px;"></i></address></li>
+			</ul>
+		    <hr>
+		   </div>
+		   <div class="col-md-4" id="hours" style="background-color: #3385ff;">
+		    <ul>
+		    <li><strong style="font-size:24px">Opening Hours</strong></li>
+		    <li style="padding-top:10px;">Monday-Friday<strong style="color:#3385ff;">----</strong>8.00-17.00</li>
+		    <li>Saturday<strong style="color:#3385ff;">-----------</strong>9.30-17.30</li>
+		    <li>Sunday<strong style="color:#3385ff;">-------------</strong>9.30-15.30</li>
+			<hr>
+			</ul>
+		   </div>
+		</div>
+	</div>
+</div>
+  
+  <script>
+    window.onscroll = function() {myFunction()};
+    var navbar = document.getElementById("top");
+    var sticky = navbar.offsetTop;
+
+	function myFunction() {
+	  if (window.pageYOffset >= sticky) {
+		navbar.classList.add("sticky")
+	  } else {
+		navbar.classList.remove("sticky");
+	  }
+	}
+</script>
+
+  
+</body>
+
+</html>
